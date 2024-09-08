@@ -7,7 +7,7 @@ const Hero = () => {
       className="flex items-center justify-center text-blue-800 w-[100vw] h-[100vh]"
     >
       <motion.div
-        className="border w-[120px] h-[120px] lg:w-[300px] lg:h-[300px] md:w-[250px] md:h-[250px] sm:w-[150px] sm:h-[150px] absolute top-[110px] lg:-top-[100px] md:-top-[100px] sm:top-[100px] -z-20"
+        className="border w-[120px] h-[120px] lg:w-[300px] lg:h-[300px] md:w-[250px] md:h-[250px] sm:w-[150px] sm:h-[150px] absolute top-[100px] lg:-top-[100px] md:-top-[100px] sm:top-[100px] -z-20"
         initial={{ opacity: 0, scale: 0, borderRadius: 50, rotateZ: 360 }}
         animate={{
           opacity: 1,
